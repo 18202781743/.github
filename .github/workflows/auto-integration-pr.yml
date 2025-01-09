@@ -51,8 +51,8 @@ jobs:
         run: |
           npm install js-yaml
           npm install shelljs
-          npm install @octokit/rest
-          npm install @octokit/auth-app
+          npm install @octokit/rest@19.0.13
+          npm install @octokit/auth-app@6.1.1
 
       - name: Get integration app token
         id: integration_token
@@ -172,10 +172,10 @@ jobs:
             console.log("find repoindex: ", repoindex)
             if (repoindex >= 0) {
               console.log("update")
-              integrationContent.repos[repoindex] = {repo: integrationrepo, order: 0, tagsha: tagsha}
+              integrationContent.repos[repoindex] = {repo: integrationrepo, tagsha: tagsha}
             } else {
               console.log("push")
-              integrationContent.repos.push({repo: integrationrepo, order: 0, tagsha: tagsha})
+              integrationContent.repos.push({repo: integrationrepo, tagsha: tagsha})
             }
 
             fs.writeFile('integration.yml', yaml.dump(integrationContent, {
@@ -197,7 +197,7 @@ jobs:
           git diff .
 
       - name: Create or update integration pr
-        uses: peter-evans/create-pull-request@v4
+        uses: peter-evans/create-pull-request@v6.0.4
         id: cpr
         with:
           token: ${{ steps.integration_token.outputs.app_token }}

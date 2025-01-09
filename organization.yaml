@@ -1,11 +1,15 @@
 organization: linuxdeepin
 settings:
   - repositories:
-      - linglong
-      - linglong-box
-      - linglong-loader
-      - linglong-dbus-proxy
-      - linglong-hub
+      - deepin-pc-manager
+      - dtk6systemsettings
+      - deepin-network-displays
+      - dde-launchpad
+      - dde-shell
+      - dde-tray-loader
+      - ddm
+      - treeland
+      - deepin-dummyapps
       - deepin-deepinid-client
       - deepin-deepinid-plugin
       - deepin-system-upgrade
@@ -13,15 +17,14 @@ settings:
       - deepin-pdfium
       - xdg-desktop-portal-dde
       - deepin-service-manager
+      - deepin-service-plugins
       - deepin-upgrade-manager
       - deepin-unioncode
-      - dtk
       - dtksystemsettings
       - dtknotifications
       - dtkdevice
       - dtknetwork
       - dtkbluetooth
-      - dtkcrypt
       - dtkio
       - dtkmultimedia
       - dtknetworkmanager
@@ -132,6 +135,8 @@ settings:
       - deepin-reader
       - deepin-devicemanager
       - deepin-editor
+      - dde-file-manager-extensions
+      - dde-file-manager-external
     features:
       issues:
         enable: true
