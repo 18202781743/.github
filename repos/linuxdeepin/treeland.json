@@ -6,7 +6,7 @@
       "release/snipe"
     ],
     "src": "workflow-templates/backup-to-gitlab.yml",
-    "dest": "linuxdeepin/linglong-box/.github/workflows/backup-to-gitlab.yml"
+    "dest": "linuxdeepin/treeland/.github/workflows/backup-to-gitlab.yml"
   },
   {
     "branch": [
@@ -15,7 +15,7 @@
       "release/snipe"
     ],
     "src": "workflow-templates/call-clacheck.yml",
-    "dest": "linuxdeepin/linglong-box/.github/workflows/call-clacheck.yml"
+    "dest": "linuxdeepin/treeland/.github/workflows/call-clacheck.yml"
   },
   {
     "branche": [
@@ -24,7 +24,7 @@
       "release/snipe"
     ],
     "src": "workflow-templates/call-commitlint.yml",
-    "dest": "linuxdeepin/linglong-box/.github/workflows/call-commitlint.yml"
+    "dest": "linuxdeepin/treeland/.github/workflows/call-commitlint.yml"
   },
   {
     "branch": [
@@ -33,7 +33,7 @@
       "release/snipe"
     ],
     "src": "workflow-templates/call-chatOps.yml",
-    "dest": "linuxdeepin/linglong-box/.github/workflows/call-chatOps.yml"
+    "dest": "linuxdeepin/treeland/.github/workflows/call-chatOps.yml"
   },
   {
     "branches": [
@@ -42,14 +42,14 @@
       "release/snipe"
     ],
     "src": "workflow-templates/call-license-check.yml",
-    "dest": "linuxdeepin/linglong-box/.github/workflows/call-license-check.yml"
+    "dest": "linuxdeepin/treeland/.github/workflows/call-license-check.yml"
   },
   {
     "branch": [
       "master"
     ],
     "src": "workflow-templates/call-auto-tag.yml",
-    "dest": "linuxdeepin/linglong-box/.github/workflows/call-auto-tag.yml"
+    "dest": "linuxdeepin/treeland/.github/workflows/call-auto-tag.yml"
   },
   {
     "branch": [
@@ -59,13 +59,14 @@
     "deletelist": [
       ".github/workflows/call-tag-build.yml"
     ],
-    "dest": "linuxdeepin/linglong-box/.github/workflows/call-tag-build.yml"
+    "dest": "linuxdeepin/treeland/.github/workflows/call-tag-build.yml"
   },
   {
     "branches": [
       "master"
     ],
     "src": "workflow-templates/cppcheck.yml",
-    "dest": "linuxdeepin/linglong-box/.github/workflows/cppcheck.yml"
+    "dest": "linuxdeepin/treeland/.github/workflows/cppcheck.yml"
   }
 ]
+

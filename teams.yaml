@@ -22,6 +22,17 @@ teams:
       - kegechen
       - FeiWang1119
       - wineee
+      - chenchongbiao
+      - robertkill
+      - ssk-wh
+      - yixinshark
+      - mhduiy
+      - fly602
+      - swq11
+      - xionglinlin
+      - caixr23
+      - ECQZXC
+      - archiemeng
     repositories_permissions:
       triage:
         - developer-center
@@ -56,6 +67,7 @@ teams:
         - dde-network-core
         - dde-launchpad
         - dde-launcher
+        - deepin-dummyapps
         - dde-manual-content
         - dde-wallpapers
         - deepin-wallpapers
@@ -79,9 +91,16 @@ teams:
         - dde-display
         - deepin-system-upgrade
         - deepin-service-manager
+        - dde-services
         - deepin-upgrade-manager
         - deepin-im
         - dde-shell
+        - dde-application-wizard
+        - ddm
+        - deepin-network-displays
+        - dde-tray-loader
+        - deepin-update-manager
+        - dde-dialog
   - name: am-maintainer
     parent_team: Maintainers
     members:
@@ -100,6 +119,7 @@ teams:
       - babyfengfjx
       - kobe337
       - xuqi27837288
+      - baicailio
       - Zeno-sole
       - yxsos
       - tsic404
@@ -115,6 +135,9 @@ teams:
       - black-desk
       - FeiWang1119
       - chenchongbiao
+      - ComixHe
+      - MingcongBai
+      - zengwei00
     repositories_permissions:
       maintain:
         - open-source-students
@@ -122,53 +145,6 @@ teams:
         - developer-center
       triage:
         - "*"
-  - name: linglong
-    parent_team: Projects
-    members:
-      - Heysion
-      - black-desk
-      - hqh2010
-      - iceyer
-      - ismdeep
-      - kamiyadm
-      - liujianqiang-niu
-      - myml
-      - realwujing
-      - tsic404
-    repositories_permissions:
-      triage:
-        - linglong
-        - linglong-box
-        - linglong-builder-demo
-        - linglong-dbus-proxy
-        - linglong-doc
-        - linglong-homepage
-        - linglong-hub
-        - linglong-loader
-        - linglong-pica
-        - linglong-repo
-        - linglong-store
-        - linglong-web-store
-  - name: linglong-maintainer
-    parent_team: linglong
-    members:
-      - black-desk
-      - iceyer
-      - kamiyadm
-    repositories_permissions:
-      push:
-        - linglong
-        - linglong-box
-        - linglong-builder-demo
-        - linglong-dbus-proxy
-        - linglong-doc
-        - linglong-homepage
-        - linglong-hub
-        - linglong-loader
-        - linglong-pica
-        - linglong-repo
-        - linglong-store
-        - linglong-web-store
   - name: network-proxy
     parent_team: Maintainers
     members:
@@ -183,6 +159,8 @@ teams:
       - lzwind
       - pengfeixx
       - wyu71
+      - myk1343
+      - max-lvs
     repositories_permissions:
       push:
         - deepin-camera
@@ -201,18 +179,22 @@ teams:
         - deepin-devicemanager
         - deepin-downloader
         - deepin-boot-maker
+        - dde-calendar
+        - libqapt-qt6
   - name: Multimedia-audio-video-member
     parent_team: Projects
     members:
       - lzwind
       - pengfeixx
       - wyu71
-      - starhcq
       - rb-union
-      - feeengli
-      - jeffshuai
-      - hundundadi
       - myk1343
+      - lJxDabab
+      - add-uos
+      - yang233000
+      - yoho0623
+      - Tw1012
+      - JWWTSL
     repositories_permissions:
       triage:
         - deepin-camera
@@ -231,13 +213,16 @@ teams:
         - deepin-devicemanager
         - deepin-downloader
         - deepin-boot-maker
+        - dde-calendar
+        - libqapt-qt6
   - name: Multimedia-graphics
     parent_team: Maintainers
     members:
       - lzwind
-      - starhcq
       - wyu71
       - rb-union
+      - pengfeixx
+      - max-lvs
     repositories_permissions:
       push:
         - deepin-draw
@@ -257,14 +242,16 @@ teams:
     parent_team: Projects
     members:
       - lzwind
-      - starhcq
       - rb-union
       - pengfeixx
       - wyu71
-      - feeengli
-      - jeffshuai
-      - hundundadi
       - myk1343
+      - lJxDabab
+      - add-uos
+      - yang233000
+      - yoho0623
+      - Tw1012
+      - JWWTSL
     repositories_permissions:
       triage:
         - deepin-draw
@@ -285,7 +272,6 @@ teams:
     members:
       - lzwind
       - wyu71
-      - starhcq
     repositories_permissions:
       push:
         - dtkdevice
@@ -295,9 +281,7 @@ teams:
     members:
       - lzwind
       - wyu71
-      - starhcq
       - rb-union
-      - jeffshuai
       - myk1343
     repositories_permissions:
       triage:
@@ -320,20 +304,29 @@ teams:
       - ComixHe
       - 18202781743
       - FeiWang1119
+      - Whale107
+      - waterlovemelon
+      - KT-lcz
+      - cjqkl
+      - mhduiy
+      - deepin-ci-robot
     repositories_permissions:
       push:
         - dtk
         - dtkcommon
+        - dtklog
         - dtkcore
         - dtkdeclarative
         - dtkgui
         - dtkwidget
         - qt5integration
         - qt5platform-plugins
+        - dtk6log
         - dtk6core
         - dtk6declarative
         - dtk6gui
         - dtk6widget
+        - dtk6systemsettings
         - qt6integration
         - qt6platform-plugins
         - dde-app-services
@@ -343,6 +336,7 @@ teams:
         - dtkbluetooth
         - dtkcrypt
         - dtkio
+        - dtkai
         - dtkmultimedia
         - dtknetworkmanager
         - dtkaudiomanager
@@ -418,10 +412,12 @@ teams:
       - max-lvs
       - toberyan
       - re2zero
+      - lzwind
     repositories_permissions:
       push:
         - dde-file-manager
         - dde-file-manager-extensions
+        - dde-file-manager-external
         - udisks2-qt5
         - deepin-shortcut-viewer
         - deepin-pdfium
@@ -435,6 +431,8 @@ teams:
         - deepin-anything
         - deepin-diskmanager
         - dde-cooperation
+        - dtkio
+        - udisks2-qt6
   - name: dde-file-manager-member
     parent_team: Projects
     members:
@@ -450,10 +448,16 @@ teams:
       - LiHua000
       - N0rthHXD
       - scx005548
+      - add-uos
+      - yang233000
+      - yoho0623
+      - Tw1012
+      - dengzhongyuan365-dev
     repositories_permissions:
       triage:
         - dde-file-manager
         - dde-file-manager-extensions
+        - dde-file-manager-external
         - udisks2-qt5
         - deepin-shortcut-viewer
         - deepin-pdfium
@@ -467,6 +471,8 @@ teams:
         - deepin-anything
         - deepin-diskmanager
         - dde-cooperation
+        - dtkio
+        - udisks2-qt6
   - name: deepin-face
     parent_team: Maintainers
     members:
@@ -506,6 +512,8 @@ teams:
       - wanjian1
       - Fire-dtx
     repositories_permissions:
+      triage:
+        - developer-center
       push:
         - deepin-boot-maker
   - name: dde-control-center
@@ -572,6 +580,8 @@ teams:
       - SuperZhangxueming
       - zsien
       - dengbo11
+      - Johnson-zs
+      - wyu71
     repositories_permissions:
       push:
         - deepin-fcitxconfigtool-plugin
@@ -591,6 +601,7 @@ teams:
       - reddevillg
       - liuli0217
       - kingjinni
+      - winexw
     repositories_permissions:
       push:
         - dde-printer
@@ -632,6 +643,7 @@ teams:
         - deepin-home
         - dde-calendar
         - bbs-mobile-web
+        - deepin-feedback
   # Corporate Contributor: Phytium
   - name: corporate-contributor-phytium
     parent_team: Maintainers
@@ -663,30 +675,44 @@ teams:
     members:
       - Zeno-sole
       - UTsweetyfish
-      - ArchieMeng
+      - MingcongBai
+      - xzl01
+      - yukarichiba
+      - hudeng-go
     repositories_permissions:
-      triage:
-        - developer-center
       push:
         - deepin-upgrade-manager
-        - deepin-terminal
+        - developer-center
+        - default-settings
+        - deepin-desktop-base
+        - deepin-global-translation
   - name: deepin-unioncode
     parent_team: Maintainers
     members:
       - deepin-mozart
       - toberyan
+      - LiHua000
+      - eric2023
+      - Kakueeen
     repositories_permissions:
+      triage:
+        - developer-center
       push:
         - deepin-unioncode
         - deepin-codeporting
   - name: deepin-unioncode-member
     parent_team: Projects
     members:
-      - deepin-mozart
-      - toberyan
-      - HJC5305
+      - Lighto-Ku
+      - GongHeng2017
+      - N0rthHXD
+      - LiHua000
+      - tsl115
+      - Kakueeen
+      - fuyou158
+      - Tw1012
     repositories_permissions:
-      push:
+      triage:
         - deepin-unioncode
         - deepin-codeporting
   - name: rust-tools
@@ -710,6 +736,7 @@ teams:
       push:
         - dtk
         - dtkcommon
+        - dtklog
         - dtkcore
         - dtkgui
         - dtkwidget
@@ -720,16 +747,41 @@ teams:
       - mikigo
     repositories_permissions:
       push:
-        - deepin-autotest-framework
+        - youqu
   - name: deepin-ai-daemon
     parent_team: Maintainers
     members:
-      - deepin-mozart
       - toberyan
-      - Kakueeen
+      - Clauszy
     repositories_permissions:
       push:
         - deepin-ai-daemon
+  - name: deepin-ai-daemon-members
+    parent_team: Maintainers
+    members:
+      - N0rthHXD
+      - jdhlh
+      - lichaofan2008
+    repositories_permissions:
+      triage:
+        - deepin-ai-daemon
+  - name: dtkai
+    parent_team: Maintainers
+    members:
+      - toberyan
+      - Clauszy
+    repositories_permissions:
+      push:
+        - dtkai
+  - name: dtkai-members
+    parent_team: Maintainers
+    members:
+      - N0rthHXD
+      - jdhlh
+      - lichaofan2008
+    repositories_permissions:
+      triage:
+        - dtkai
   - name: letmego
     parent_team: Maintainers
     members:
@@ -740,3 +792,119 @@ teams:
         - funnylog
         - pdocr-rpc
         - image-center
+  - name: treeland
+    parent_team: Projects
+    members:
+      - justforlxz
+      - wineee
+      - groveer
+    repositories_permissions:
+      push:
+        - treeland
+        - treeland-protocols
+  - name: treeland-member
+    parent_team: Projects
+    members:
+      - justforlxz
+      - wineee
+      - groveer
+      - asterwyx
+      - lbwtw
+      - zorowk
+      - Dami-star
+    repositories_permissions:
+      triage:
+        - treeland
+        - treeland-protocols
+        - developer-center
+  - name: deepin-osconfig
+    parent_team: Projects
+    members:
+      - kegechen
+      - Zeno-sole
+    repositories_permissions:
+      push:
+        - deepin-osconfig
+  - name: deepin-pc-manager
+    parent_team: Maintainers
+    members:
+      - groveer
+      - qxp930712
+    repositories_permissions:
+      push:
+        - deepin-pc-manager
+  - name: deepin-kernel
+    parent_team: Maintainers
+    members:
+      - Avenger-285714
+      - BLumia
+      - chenchongbiao
+      - huangbibo
+      - matrix-wsk
+      - opsiff
+      - winnscode
+      - xzl01
+      - zccrs
+      - Zeno-sole
+    repositories_permissions:
+      push:
+        - deepin-lkrg
+  - name: migration-tools
+    parent_team: Maintainers
+    members:
+      - xuezhixin
+      - daaitudian
+      - XingWei-Liu
+      - F16shen
+      - LiHaiP
+    repositories_permissions:
+      push:
+        - migration-tools
+
+  - name: deepin-terminal
+    parent_team: Maintainers
+    members:
+      - ArchieMeng
+    repositories_permissions:
+      push:
+        - deepin-terminal
+
+  - name: pkgs-categorizer
+    parent_team: Maintainers
+    members:
+      - luckhuanhuan
+      - WangMengabc
+      - rtczza
+      - trackers-lover
+      - bin-ly
+    repositories_permissions:
+      push:
+        - pkgs-categorizer
+
+  - name: deepin-sbom-tools
+    members:
+      - kyrie-z
+    repositories_permissions:
+      triage:
+        - deepin-sbom-tools
+      push:
+        - deepin-sbom-tools
+  - name: Package-admins
+    members:
+      - liujianqiang-niu
+      - lzyprime
+      - heysion
+      - mangosteens
+    repositories_permissions:
+      triage:
+        - "*"
+  - name: linyaps-tools
+    parent_team: Projects
+    members:
+      - ComixHe
+      - myml
+      - dengbo11
+      - black-desk
+    repositories_permissions:
+      push:
+        - linyaps-tools
